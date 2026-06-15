@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  /* Custom Luxury Wine Palette */
+  --color-wine-50: #faf5f6;
+  --color-wine-100: #f3e6e8;
+  --color-wine-200: #e7cbd1;
+  --color-wine-300: #d2a4ad;
+  --color-wine-400: #b87582;
+  --color-wine-500: #934654;
+  --color-wine-600: #7b333f;
+  --color-wine-700: #642530;
+  --color-wine-800: #541f27;
+  --color-wine-900: #441a1f;
+  --color-wine-950: #250b10;
+
+  --color-gold-50: #fbfaf7;
+  --color-gold-100: #f6f3eb;
+  --color-gold-200: #ebdcc9;
+  --color-gold-300: #dcbe9d;
+  --color-gold-400: #cfa374;
+  --color-gold-500: #b8905a;
+  --color-gold-600: #a17743;
+  --color-gold-700: #825a33;
+  --color-gold-800: #664427;
+  --color-gold-900: #513520;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fafaf9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8905a;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+.font-serif-ital {
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+/* Luxury transitions */
+.transition-luxury {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+

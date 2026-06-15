@@ -1,0 +1,6 @@
+{
+  "name": "Eastgate Liquid Gate",
+  "description": "A premium, sophisticated digital experience for Eastgate Liquid Gate Wine Club, Winery & Wine Shop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
